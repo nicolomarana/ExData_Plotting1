@@ -32,7 +32,7 @@ lines(date, power$Sub_metering_2, col='red')
 lines(date, power$Sub_metering_3, col='blue')
 
 legend("topright", legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
-       col=c("black","red","blue"), lty=1, pt.cex = 1,cex=0.25)
+       col=c("black","red","blue"), lty=1, pt.cex = 1,cex=0.50, bty="n")
 
 
 # Subplot row 2 col 2
